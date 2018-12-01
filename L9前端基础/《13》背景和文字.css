@@ -1,0 +1,20 @@
+body {
+    background-color: bisque;
+    background-image: url("demo.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    background-size:100%;
+}
+
+p {
+    font-family: "Microsoft YaHei",sans-serif;
+    color:#000;
+    size:15px;
+    text-align: center;
+    text-indent:10px;
+    font-weight: bold; /*加粗*/
+    text-decoration: underline;/*添加下划线*/
+    text-shadow:3px 3px
+4px #000000;/*阴影在X轴向右移动的距离 Y轴向下移动的距离 阴影模糊程度 阴影颜色*/
+}

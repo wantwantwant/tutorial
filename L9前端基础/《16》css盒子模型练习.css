@@ -1,0 +1,61 @@
+* {
+    /*清除所有标签的外边距，否则div%宽也无法定满网页宽度*/
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: silver;
+}
+
+.top {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+
+}
+
+.topcenter{
+    width: 1000px;
+    height: 100%;
+    background-color: #777777;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    /*auto代表自动计算距离，两个参数时第一个代表上下，第二个代表左右*/
+}
+
+.middle {
+    width: 1000px;
+    height: 1000px;
+    background:linear-gradient(#cf48ff, rgba(106, 248, 162, 0.53));
+    margin: 0px auto;
+}
+
+.middle1 {
+    width:1000px;
+    height:20% ;
+    background-color: darkturquoise;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.middle2 {
+    width: 1000px;
+    height:10% ;
+    background-color: coral;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.bottom {
+    width: 1000px;
+    height: 50px;
+    background-color: saddlebrown;
+    margin:20px auto 0px auto;
+    font-size: 20px;
+    text-align: center;
+}
+
