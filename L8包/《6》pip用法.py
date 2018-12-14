@@ -46,3 +46,13 @@ index-url = https://pypi.douban.com/simple/
 3.requirement already satisfied .之前已经成功安装过此包了。
 4.cache 缓存。之前已经下载过安装包，再次安装时不会再从网上下载。
 """
+
+"""
+另外安装方式：
+1.源码安装。从github包的主页/releases找到source code。 解压。cd到解压后的包根目录。
+python setup.py install
+优点：适合任何操作系统和python版本。缺点：有些包源代码调用了c++代码，但本机没有c++编译器，编译出错。
+2.wheel文件安装。wheel文件是有人已经安装好c++编译器，根据操作系统和python版本编译好这种平台上可运行的二进制。pip上安装的包实际上就是平台为我们追备好的适合当前操作系统和python版本的.wheel文件
+pypi上查找下载对应版本的.whl文件
+pip install requests_x64_win_py.whl
+"""
