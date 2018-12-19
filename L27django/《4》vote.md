@@ -1,0 +1,10 @@
+### 可能出现的错误
+reverse函数reverse('polls:results', args=(question.id))
+等价 前端{% url 'polls:vote' question.id %}
+等价 flask url_for('模块.视图函数名', arg1=value1)
+1.Reverse for 'votes' not found. 'votes' is not a valid view function or 
+pattern name.  构造url时出错，跟urls.py定义的path规则不匹配。
+解决：检查urls.py中的app_name path()规则中的name、路由 可变部分的变量名 跟{% url '命名空间：path
+规则名' 参数 %}
+2. 前端渲染不出来值，html中写死的内容可以展现，后台对象可以取到。
+原因：渲染值传参错误
